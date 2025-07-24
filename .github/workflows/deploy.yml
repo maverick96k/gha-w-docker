@@ -6,7 +6,7 @@ on:
       - dev
 env:
   CACHE_KEY: node-deps
-  PORT: 27017 
+  PORT: 3000 
 jobs:
   test:
     environment: testing
